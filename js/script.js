@@ -7,12 +7,33 @@ let products = [
         type: "floral"
     },
     {
-        id:1,
+        id:2,
         name:"Farmasi Tonteria",
         image:"img/farmasi.jpg",
         price:950,
         type: "floral"
-    }
+    },
+    {
+        id:3,
+        name:"Versace Versense",
+        image:"img/versense___171113.webp",
+        price:3500,
+        type: "wooden"
+    },
+    {
+        id:4,
+        name:"Nasomatto Black Afgano",
+        image:"img/rcqsxiaynroh.jpg",
+        price:10175,
+        type: "wooden"
+    },
+    {
+        id:5,
+        name:"Jean Paul Gaultier Scandal",
+        image:"img/завантаження.jpg",
+        price:805,
+        type: "citrus"
+    },
 
 ];
 
@@ -29,7 +50,7 @@ function renderProducts(items){
 
     items.forEach(function(item){
         let productHTML = `
-            <article class="product">
+            <article class="product" data-id=${item.id}>
                 <img src="${item.image}" alt="" class="product-img">
                     <h3 class="product-title">${item.name}</h3>
                     <p class="product-price">${item.price}</p>

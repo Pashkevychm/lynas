@@ -70,7 +70,7 @@ cartContainer.addEventListener('input', (event)=>{
 
             localStorage.setItem('cart', JSON.stringify(cart));;
             totalElement.innerText = `${calculateTotal()} UAH`;
-            parent.querySelector('.total-box'.innerText = `${item.price * item.quantity} UAH`)
+            parent.querySelector('.total-box').innerText = `${item.price * item.quantity} UAH`
         }
     }
 });

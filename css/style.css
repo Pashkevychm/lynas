@@ -1,5 +1,12 @@
+body{
+    background-color:#fff4f6;
+}
 header {
     background-color: #DF90A8;
+}
+
+h1, h2 {
+    margin: 20px;
 }
 .section{
     padding: 40px 0;
@@ -57,6 +64,9 @@ img{
     border-radius: 10%;
     text-decoration-color: #ddd;
 }
-main{
-    background-color:#fff4f6;
+.order-btn {
+    background-color: #F5DEE4;
+    border:1px solid #efd0d9;
+    border-radius: 10%;
+    text-decoration-color: #ddd;
 }
